@@ -1,0 +1,10 @@
+[package]
+name = "rs-uuid"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.6.1"
+uuid = { version = "0.4", features = ["v4"] }
